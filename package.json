@@ -1,24 +1,29 @@
 {
-  "name": "dream_assignment",
-  "version": "1.0.0",
-  "main": "index.ts",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
-  "dependencies": {
-    "expo": "~53.0.22",
-    "expo-status-bar": "~2.2.3",
-    "jotai": "^2.13.1",
-    "react": "19.0.0",
-    "react-native": "0.79.6"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.25.2",
-    "@types/react": "~19.0.10",
-    "typescript": "~5.8.3"
-  },
-  "private": true
+    "name": "dream_assignment",
+    "version": "1.0.0",
+    "main": "expo-router/entry",
+    "scripts": {
+        "start": "expo start",
+        "android": "expo start --android",
+        "ios": "expo start --ios",
+        "web": "expo start --web"
+    },
+    "dependencies": {
+        "@react-native-async-storage/async-storage": "^2.2.0",
+        "@react-native-community/datetimepicker": "8.4.1",
+        "expo": "~54.0.6",
+        "expo-router": "~6.0.3",
+        "expo-status-bar": "~3.0.8",
+        "jotai": "^2.13.1",
+        "react": "19.1.0",
+        "react-native": "0.81.4",
+        "react-native-safe-area-context": "5.4.0",
+        "use-sync-external-store": "^1.5.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.25.2",
+        "@types/react": "~19.1.13",
+        "typescript": "~5.9.2"
+    },
+    "private": true
 }
