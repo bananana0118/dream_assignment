@@ -98,6 +98,10 @@ src/
 - TypeScript : 정적 타입 안정성 보장
 
 ### 🎨주요 화면
+<img width="316" height="770" alt="image" src="https://github.com/user-attachments/assets/d003644c-38f1-497d-8055-a8d1a6eb5cd0" />
+<img width="316" height="770" alt="image" src="https://github.com/user-attachments/assets/7f723cb4-5d88-4bfc-9362-3111f41e5888" />
+
+
 
 - 캘린더 화면
 
