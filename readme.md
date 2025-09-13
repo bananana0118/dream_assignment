@@ -25,6 +25,8 @@ pnpm install
 
 # 앱 실행 (Expo)
 pnpm expo start
+또는
+pnpm start
 ```
 
 ### 📂 디렉터리 구조
