@@ -24,12 +24,12 @@ Expo + React Native + Jotai 를 기반으로 구현되었으며, 과제 요구�
 pnpm install
 
 # 앱 실행 (Expo)
-pnpm start
+pnpm expo start
+```
 
+### 📂 디렉터리 구조
 
-📂 디렉터리 구조
-bash
-코드 복사
+```bash
 app/                         # Expo Router 기반 라우팅
  ├─ event/                   # 일정 상세 관련 라우트
  │   ├─ [id].tsx             # 일정 상세 화면
@@ -87,15 +87,15 @@ src/
 
 ### 🛠 사용 기술
 
-React Native (Expo) : 크로스플랫폼 앱 개발
+- React Native (Expo)
 
-Jotai : 전역 상태 관리 (이벤트, 선택된 날짜)
+- Jotai : 전역 상태 관리 (이벤트, 선택된 날짜)
 
-expo-router : 파일 기반 라우팅
+- expo-router : 파일 기반 라우팅
 
-react-native-safe-area-context : 안전 영역 대응
+- react-native-safe-area-context : 안전 영역 대응
 
-TypeScript : 정적 타입 안정성 보장
+- TypeScript : 정적 타입 안정성 보장
 
 ### 🎨주요 화면
 
@@ -120,3 +120,5 @@ TypeScript : 정적 타입 안정성 보장
 디자인은 theme를 기준으로 일관성 있게 적용했습니다.
 
 더미 데이터(assets/events.json)는 8~10월 다양한 유형의 이벤트로 구성했습니다.
+
+- 컴퓨터 사양때문에 다양한 화면사이즈와 ios 환경에서의 테스트를 못했습니다.
